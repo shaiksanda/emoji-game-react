@@ -1,0 +1,40 @@
+/* Write your code here. */
+
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-again-button {
+  color: black;
+  background-color: yellowgreen;
+  border-width: 0px;
+  border-radius: 8px;
+  width: 120px;
+  height: 35px;
+  cursor: pointer;
+  outline: none;
+}
+.play-again-button:hover {
+  color: wheat;
+  background-color: brown;
+}
+
+.logo {
+  width: 50%;
+}
+
+.heading {
+  color: white;
+  font-family: 'Bree Serif';
+}
+
+.heading:hover {
+  color: wheat;
+  transform: scale(1.05);
+  transition: transform 0.2s ease;
+}
+.score {
+  color: blue;
+  font-weight: bold;
+}

@@ -1,0 +1,79 @@
+/* Write your code here. */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bg-container {
+  background: linear-gradient(to right, royalblue, skyblue);
+  padding: 1px 1px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+.image-container {
+  display: flex;
+  gap: 1 rem;
+  align-items: center;
+}
+
+.nav-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 2px;
+  transition: transform 0.2s ease;
+}
+
+.nav-image:hover {
+  transform: scale(1.05);
+}
+
+.nav-heading {
+  color: white;
+  font-family: 'Bree Serif';
+  font-size: 18px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.nav-heading:hover {
+  color: wheat;
+  transform: scale(1.05);
+}
+
+.scores-container {
+  display: flex;
+}
+
+.score-heading {
+  font-family: 'Bree Serif';
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+.score-heading:hover {
+  color: wheat;
+  transform: scale(1.05);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-heading {
+    font-size: 30px;
+  }
+  .nav-image {
+    width: 50px;
+    height: 50px;
+  }
+  .score-heading {
+    font-size: 30px;
+  }
+}
+
+span {
+  color: blueviolet;
+}
